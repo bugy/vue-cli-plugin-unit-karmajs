@@ -47,7 +47,3 @@ module.exports = ( { webpackConfig, karmaOptions, watch, browsers } ) => {
 
   return karmaConfig;
 };
-
-module.exports.defaultModes = {
-  'test:unit': 'test'
-}
